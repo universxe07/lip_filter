@@ -1,0 +1,32 @@
+body{
+
+    background-color: rgb(189, 204, 255);
+}
+.H3{
+
+background-color: rgb(255, 128, 128);
+border-radius: 5px;
+width: 200px;
+}
+
+h3{
+
+    font-size: 25px !important;
+}
+.btn{
+
+background-color: rgb(255, 111, 111);
+}
+
+canvas{
+
+    animation-name:example;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    
+    from{box-shadow:1px 1px 30px rgb(212, 255, 249);}
+    to{box-shadow:1px 1px 30px rgb(7, 102, 146);}
+}
